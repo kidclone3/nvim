@@ -72,7 +72,7 @@ return packer.startup(function(use)
   use "ThePrimeagen/harpoon"
   use "MattesGroeger/vim-bookmarks"
   use "lunarvim/vim-solidity"
-  use "blackCauldron7/surround.nvim"
+--  use "blackCauldron7/surround.nvim"
   use "tpope/vim-repeat"
   use "Shatur/neovim-session-manager"
   use "rcarriga/nvim-notify"
@@ -94,6 +94,7 @@ return packer.startup(function(use)
   use "lunarvim/darkplus.nvim"
   use "rose-pine/neovim"
   use "rebelot/kanagawa.nvim"
+  use "folke/tokyonight.nvim" -- Another theme.
 
   -- cmp plugins
   use { "hrsh7th/nvim-cmp", commit = "d93104244c3834fbd8f3dd01da9729920e0b5fe7" } -- The completion plugin
@@ -175,6 +176,12 @@ return packer.startup(function(use)
   use "theHamsta/nvim-dap-virtual-text"
   use "rcarriga/nvim-dap-ui"
   use "Pocco81/DAPInstall.nvim"
+
+-- For Running compile commands. 
+  use "skywind3000/asyncrun.vim"
+
+-- For debugging.
+  use "puremourning/vimspector"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
