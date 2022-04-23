@@ -1,11 +1,27 @@
 -- Competitive programming
 
+
+
 -- Set output space.
 vim.g.asyncrun_open = 6 
 vim.g.asyncrun_bell = 1
 
 local keymap = vim.api.nvim_set_keymap
 opts = {noremap = false, silent = true}
+
+if (vim.g.vscode)
+    then
+-- Add setting for vscode.
+local options = {
+    clipboard = "unnamedplus"
+}
+
+for k, v in pairs(options) do
+  vim.opt[k] = v
+end
+
+keymap("n", "ct", ":-1read ~/Documents/mycodes/template/template.cpp<cr>", opts)
+end
 
 -- Compiling commands.
 if (not vim.g.vscode) 
@@ -24,8 +40,11 @@ vim.opt.shiftwidth = 4 -- size of an "indent"
 vim.opt.smartindent = true -- Autoindent new lines
 
 end
+
+
 -- Press Space+A to copy all file.
 keymap("n", "<C-a>", ":%y<cr>", opts)
 
 -- Fuzzy find / Telescope.
 keymap("n", "<F12>", ":Telescope find_files", opts)
+

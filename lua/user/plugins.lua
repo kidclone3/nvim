@@ -72,7 +72,8 @@ return packer.startup(function(use)
   use "ThePrimeagen/harpoon"
   use "MattesGroeger/vim-bookmarks"
   use "lunarvim/vim-solidity"
---  use "blackCauldron7/surround.nvim"
+ -- use "blackCauldron7/surround.nvim"
+  use "Mephistophiles/surround.nvim"
   use "tpope/vim-repeat"
   use "Shatur/neovim-session-manager"
   use "rcarriga/nvim-notify"
@@ -89,7 +90,6 @@ return packer.startup(function(use)
   }
 
   -- Colorschemes
-  use "folke/tokyonight.nvim"
   use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
   use "lunarvim/darkplus.nvim"
   use "rose-pine/neovim"

@@ -1,6 +1,6 @@
-if vim.fn.exists('g:vscode') == 1 then
-  do return end
-end
+-- if vim.fn.exists('g:vscode') == 1 then
+--   do return end
+-- end
 require "user.options"
 require "user.keymaps"
 require "user.plugins"
@@ -51,4 +51,4 @@ require "user.gps"
 require "user.illuminate"
 
 
-require "custom"
+require "user.custom.custom"

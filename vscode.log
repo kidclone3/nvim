@@ -1,2 +1,19 @@
-2022-03-05T12:57:39.457Z CursorManager: No editor for gridId: 1
-2022-03-05T12:57:41.270Z CursorManager: No editor for gridId: 2
+2022-03-10T08:59:35.720Z CursorManager: No editor for gridId: 1
+2022-03-10T08:59:36.070Z CursorManager: No editor for gridId: 2
+2022-03-10T08:59:36.092Z BufferManager: No buffer for onDidChangeEditorOptions, skipping
+2022-03-10T08:59:36.346Z CursorManager: No editor for gridId: 2
+2022-03-10T08:59:36.936Z DocumentChangeManager: Can't get last known neovim content for vscode://schemas/settings/user, skipping
+2022-03-10T09:00:28.528Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:00:28.530Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:00:29.874Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:00:29.875Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:00:33.480Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:00:33.481Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:00:33.907Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:00:33.908Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:00:51.877Z DocumentChangeManager: Can't get last known neovim content for vscode://schemas/workbench-colors, skipping
+2022-03-10T09:00:53.013Z DocumentChangeManager: Can't get last known neovim content for vscode://schemas/workbench-colors, skipping
+2022-03-10T09:00:56.134Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:00:56.158Z CursorManager: No editor for gridId: 2
+2022-03-10T09:00:56.375Z DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/delus/.config/Code/User/settings.json, skipping
+2022-03-10T09:02:06.796Z CursorManager: No editor for gridId: 2
